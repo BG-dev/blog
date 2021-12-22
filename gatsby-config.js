@@ -8,6 +8,14 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: 'qaewhz92nurf',
+        accessToken: 'H7U1X8Xupc2yExVMq-KsqcTZuukW8BRDbLt9qaUBD4Y'
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
