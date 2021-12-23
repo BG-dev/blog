@@ -14,7 +14,9 @@ exports.createPages = ({ graphql, actions }) => {
                 slug
                 authorAvatarImage{
                   gatsbyImageData
-              }
+                }
+                authorName
+                creationDate
               }
             }
           }

@@ -1,11 +1,6 @@
 import * as React from "react"
 import { graphql, Link } from "gatsby"
-import styled from '@emotion/styled'
-
-const Container = styled.div`
-    width: 1600px;
-    margin: 0 auto;
-  `
+import {Container} from "../styles/styles"
 
 const BlogPost = ({node}) => {
   return (
