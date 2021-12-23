@@ -11,7 +11,9 @@ exports.createPages = ({ graphql, actions }) => {
             edges {
               node {
                 title
-                slug
+                content {
+                  content
+                }
                 authorAvatarImage{
                   gatsbyImageData
                 }

@@ -1,6 +1,7 @@
 import * as React from "react"
 import { graphql, Link } from "gatsby"
-import {Container} from "../styles/styles"
+import "../styles/normalize.css"
+import {ContainerStyle} from "../styles/styles"
 
 const BlogPost = ({node}) => {
   return (
@@ -12,11 +13,11 @@ const BlogPost = ({node}) => {
 
 function IndexPage({data}) {
   return(
-    <Container>
+    <ContainerStyle>
       <ul>
         {data.allContentfulBlog.edges.map((edge, index) => <BlogPost key={index}  node={edge.node}/>)}
       </ul>
-    </Container>
+    </ContainerStyle>
   );
 }
 
@@ -28,7 +29,6 @@ export const pageQuery = graphql`
       edges {
         node {
           title
-          slug
         }
       }
     }
