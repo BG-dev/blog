@@ -49,6 +49,9 @@ export const pageQuery = graphql`
             authorAvatarImage{
                 gatsbyImageData
             }
+            postImage{
+                gatsbyImageData
+            }
             authorName
             creationDate
         }

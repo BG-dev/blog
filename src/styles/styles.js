@@ -17,24 +17,41 @@ export const ContainerStyle = styled.div`
     margin: 0 auto;
   `
 
-export const BlogCardsStyle = styled.li`
+export const BlogCardStyle = styled.li`
+  display: flex;
+  align-items: start;
   margin-top: 50px;
+`
+
+export const InformationBlogCardStyle = styled.div`
+  font-family: "Montserrat", sans-serif;
+  margin-right: 30px;
+  width: 400px;
+`
+
+export const ImageBlogCardStyle = styled.img`
+  width:  200px;
+  height: 140px;
+  object-fit: cover;
 `
 
 export const ListBlogCardsStyle = styled.ul`
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `
 
 export const AuthorBlogCardStyle = styled.div`
   display: flex;
   align-items: center;
   gap: 0.7rem;
+  margin-bottom: 10px;
 `
 
 export const TitleBlogCardStyle = styled.h2`
   text-decoration: none;
   color: #000000;
-  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 200;
 `

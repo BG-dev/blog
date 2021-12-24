@@ -2,22 +2,29 @@ import * as React from "react"
 import { graphql, Link } from "gatsby"
 import "../styles/normalize.css"
 import Header from '../components/Header'
-import {ContainerStyle, AuthorBlogCardStyle, AvatarStyle, TitleBlogCardStyle, ListBlogCardsStyle, BlogCardsStyle} from "../styles/styles"
+import {ContainerStyle, AuthorBlogCardStyle, AvatarStyle, TitleBlogCardStyle, 
+  ListBlogCardsStyle, BlogCardStyle, ImageBlogCardStyle, InformationBlogCardStyle} from "../styles/styles"
 
 const BlogCard = ({node}) => {
 
   const title = node.title;
-  const image = node.authorAvatarImage.gatsbyImageData.images.fallback.src;
+  const authorImage = node.authorAvatarImage.gatsbyImageData.images.fallback.src;
+  const postImage = node.postImage.gatsbyImageData.images.fallback.src;
   const authorName = node.authorName;
+  const creationDate = node.creationDate;
 
   return (
-    <BlogCardsStyle>
-      <AuthorBlogCardStyle>
-        <AvatarStyle src={image} alt="avatar"/>
-        <p>{authorName}</p>
-      </AuthorBlogCardStyle>
-      <Link to={title}><TitleBlogCardStyle>{title}</TitleBlogCardStyle></Link>
-    </BlogCardsStyle>
+    <BlogCardStyle>
+      <InformationBlogCardStyle>
+        <AuthorBlogCardStyle>
+          <AvatarStyle src={authorImage} alt="avatar"/>
+          <p>{authorName}</p>
+        </AuthorBlogCardStyle>
+        <Link to={title}><TitleBlogCardStyle>{title}</TitleBlogCardStyle></Link>
+        <p>{creationDate}</p>
+      </InformationBlogCardStyle>
+      <ImageBlogCardStyle src={postImage} alt="post"/>
+    </BlogCardStyle>
   )
 }
 
@@ -47,6 +54,9 @@ export const pageQuery = graphql`
             }
             authorAvatarImage{
                 gatsbyImageData
+            }
+            postImage{
+              gatsbyImageData
             }
             authorName
             creationDate
