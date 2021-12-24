@@ -17,6 +17,28 @@ export const ContainerStyle = styled.div`
     margin: 0 auto;
   `
 
+export const BlogCardsStyle = styled.li`
+  margin-top: 50px;
+`
+
+export const ListBlogCardsStyle = styled.ul`
+  list-style: none;
+`
+
+export const AuthorBlogCardStyle = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+`
+
+export const TitleBlogCardStyle = styled.h2`
+  text-decoration: none;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+`
+
 export const PostContentStyle = styled.div`
     font-size: 20px;
     font-family: "Roboto", sans-serif;

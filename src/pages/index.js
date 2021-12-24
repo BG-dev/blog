@@ -1,23 +1,36 @@
 import * as React from "react"
 import { graphql, Link } from "gatsby"
 import "../styles/normalize.css"
-import {ContainerStyle} from "../styles/styles"
+import Header from '../components/Header'
+import {ContainerStyle, AuthorBlogCardStyle, AvatarStyle, TitleBlogCardStyle, ListBlogCardsStyle, BlogCardsStyle} from "../styles/styles"
 
-const BlogPost = ({node}) => {
+const BlogCard = ({node}) => {
+
+  const title = node.title;
+  const image = node.authorAvatarImage.gatsbyImageData.images.fallback.src;
+  const authorName = node.authorName;
+
   return (
-    <li> 
-      <Link to={node.title}>{node.title}</Link>
-    </li>
+    <BlogCardsStyle>
+      <AuthorBlogCardStyle>
+        <AvatarStyle src={image} alt="avatar"/>
+        <p>{authorName}</p>
+      </AuthorBlogCardStyle>
+      <Link to={title}><TitleBlogCardStyle>{title}</TitleBlogCardStyle></Link>
+    </BlogCardsStyle>
   )
 }
 
 function IndexPage({data}) {
   return(
-    <ContainerStyle>
-      <ul>
-        {data.allContentfulBlog.edges.map((edge, index) => <BlogPost key={index}  node={edge.node}/>)}
-      </ul>
-    </ContainerStyle>
+    <div>
+      <Header/>
+      <ContainerStyle>
+        <ListBlogCardsStyle>
+          {data.allContentfulBlog.edges.map((edge, index) => <BlogCard key={index}  node={edge.node}/>)}
+        </ListBlogCardsStyle>
+      </ContainerStyle>
+    </div>
   );
 }
 
@@ -29,6 +42,14 @@ export const pageQuery = graphql`
       edges {
         node {
           title
+            content {
+                content
+            }
+            authorAvatarImage{
+                gatsbyImageData
+            }
+            authorName
+            creationDate
         }
       }
     }

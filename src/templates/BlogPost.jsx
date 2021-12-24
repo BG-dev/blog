@@ -5,12 +5,13 @@ import Header from '../components/Header'
 import {AvatarStyle, ContainerStyle, PostInformationStyle, PostStyle, PostContentStyle} from "../styles/styles"
 
 function BlogPost({data}){
+    const contentful = data.contentfulBlog;
 
-    const title = data.contentfulBlog.title
-    const content = data.contentfulBlog.content.content
-    const image = data.contentfulBlog.authorAvatarImage.gatsbyImageData.images.fallback.src;
-    const authorName = data.contentfulBlog.authorName;
-    const creationDate = data.contentfulBlog.creationDate;
+    const title = contentful.title
+    const content = contentful.content.content
+    const image = contentful.authorAvatarImage.gatsbyImageData.images.fallback.src;
+    const authorName = contentful.authorName;
+    const creationDate = contentful.creationDate;
 
     return(
         <div>
