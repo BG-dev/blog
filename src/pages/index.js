@@ -23,7 +23,9 @@ const BlogCard = ({node}) => {
         <Link to={title}><TitleBlogCardStyle>{title}</TitleBlogCardStyle></Link>
         <p>{creationDate}</p>
       </InformationBlogCardStyle>
-      <ImageBlogCardStyle src={postImage} alt="post"/>
+      <Link to={title}>
+        <ImageBlogCardStyle src={postImage} alt="post"/>
+      </Link>
     </BlogCardStyle>
   )
 }
