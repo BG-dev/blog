@@ -3,38 +3,42 @@ import React from "react";
 import PropTypes from 'prop-types'
 import Header from '../components/Header'
 import {AvatarStyle, ContainerStyle, PostInformationStyle, PostStyle, PostContentStyle} from "../styles/styles"
+import { Component } from "react";
 
-function BlogPost({data}){
-    const contentful = data.contentfulBlog;
+class BlogPost extends Component{
 
-    const title = contentful.title
-    const content = contentful.content.content
-    const image = contentful.authorAvatarImage.gatsbyImageData.images.fallback.src;
-    const authorName = contentful.authorName;
-    const creationDate = contentful.creationDate;
+    constructor(props){
+        super(props)
 
-    return(
-        <div>
-            <Header/>
-            <ContainerStyle>
-                <PostStyle>
-                    <h2>{title}</h2>
-                    <PostInformationStyle>
-                        <AvatarStyle src={image} alt="avatar"/>
-                        <p>{authorName}</p>
-                        <p>{creationDate}</p>
-                    </PostInformationStyle>
-                    <PostContentStyle>
-                        <p>{content}</p>
-                    </PostContentStyle>
-                </PostStyle>
-            </ContainerStyle>
-        </div>
-    );
-}
+        this.data = props.data;
+        this.contentful = this.data.contentfulBlog;
+        this.title = this.contentful.title
+        this.content = this.contentful.content.content
+        this.image = this.contentful.authorAvatarImage.gatsbyImageData.images.fallback.src;
+        this.authorName = this.contentful.authorName;
+        this.creationDate = this.contentful.creationDate;
+    }
 
-BlogPost.propTypes = {
-    data: PropTypes.object.isRequired
+    render(){
+        return(
+            <div>
+                <Header/>
+                <ContainerStyle>
+                    <PostStyle>
+                        <h2>{this.title}</h2>
+                        <PostInformationStyle>
+                            <AvatarStyle src={this.image} alt="avatar"/>
+                            <p className="authorName">{this.authorName}</p>
+                            <p>{this.creationDate}</p>
+                        </PostInformationStyle>
+                        <PostContentStyle>
+                            <p>{this.content}</p>
+                        </PostContentStyle>
+                    </PostStyle>
+                </ContainerStyle>
+            </div>
+        );
+    }
 }
 
 export default BlogPost

@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blog Card Renders in layout 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <li
+        class="css-1b865cr"
+      >
+        <div
+          class="css-bp38ad"
+        >
+          <div
+            class="css-qr5w71"
+          >
+            <img
+              alt="avatar"
+              class="css-1cb8wce"
+              src="https://images.ctfassets.net/qaewhz92nurf/7ITV96IbYOyroFdtTQNxlK/ba144cf418eaf777c6b48ae7de750443/Mikita.Azizau.png?w=1550&h=1465&fl=progressive&q=50&fm=jpg"
+            />
+            <p
+              class="authorName"
+            >
+              Nikita Azizov
+            </p>
+          </div>
+          <a
+            href="Жизнь в Минске"
+          >
+            <h2
+              class="css-1q2o24w"
+            >
+              Жизнь в Минске
+            </h2>
+          </a>
+          <p>
+            2021-12-23
+          </p>
+        </div>
+        <a
+          href="Жизнь в Минске"
+        >
+          <img
+            alt="post"
+            class="css-1hw3njn"
+            src="https://images.ctfassets.net/qaewhz92nurf/41RWKhKy3mLqDKugWydnlR/018054cd5e01df4b8a9d2d0627657ae5/pedestrian-road-street-car-new-york-manhattan-taxi-vehicle-nyc-america-contrast-yellow-sports-car-yellow-cab-supercar-street.jpg?w=1152&h=864&fl=progressive&q=50&fm=jpg"
+          />
+        </a>
+      </li>
+    </div>
+  </body>,
+  "container": <div>
+    <li
+      class="css-1b865cr"
+    >
+      <div
+        class="css-bp38ad"
+      >
+        <div
+          class="css-qr5w71"
+        >
+          <img
+            alt="avatar"
+            class="css-1cb8wce"
+            src="https://images.ctfassets.net/qaewhz92nurf/7ITV96IbYOyroFdtTQNxlK/ba144cf418eaf777c6b48ae7de750443/Mikita.Azizau.png?w=1550&h=1465&fl=progressive&q=50&fm=jpg"
+          />
+          <p
+            class="authorName"
+          >
+            Nikita Azizov
+          </p>
+        </div>
+        <a
+          href="Жизнь в Минске"
+        >
+          <h2
+            class="css-1q2o24w"
+          >
+            Жизнь в Минске
+          </h2>
+        </a>
+        <p>
+          2021-12-23
+        </p>
+      </div>
+      <a
+        href="Жизнь в Минске"
+      >
+        <img
+          alt="post"
+          class="css-1hw3njn"
+          src="https://images.ctfassets.net/qaewhz92nurf/41RWKhKy3mLqDKugWydnlR/018054cd5e01df4b8a9d2d0627657ae5/pedestrian-road-street-car-new-york-manhattan-taxi-vehicle-nyc-america-contrast-yellow-sports-car-yellow-cab-supercar-street.jpg?w=1152&h=864&fl=progressive&q=50&fm=jpg"
+        />
+      </a>
+    </li>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Blog Post Renders in layout 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <header
+          class="css-1hvipe"
+        >
+          <div
+            class="css-dzbrss"
+          >
+            <a
+              href="/"
+            >
+              <h1>
+                Blog
+              </h1>
+            </a>
+          </div>
+        </header>
+        <div
+          class="css-dzbrss"
+        >
+          <div
+            class="css-1t2stdg"
+          >
+            <h2>
+              Жизнь в Минске
+            </h2>
+            <div
+              class="css-29ta8s"
+            >
+              <img
+                alt="avatar"
+                class="css-1cb8wce"
+                src="https://images.ctfassets.net/qaewhz92nurf/7ITV96IbYOyroFdtTQNxlK/ba144cf418eaf777c6b48ae7de750443/Mikita.Azizau.png?w=1550&h=1465&fl=progressive&q=50&fm=jpg"
+              />
+              <p
+                class="authorName"
+              >
+                Nikita Azizov
+              </p>
+              <p>
+                2021-12-23
+              </p>
+            </div>
+            <div
+              class="css-11ama30"
+            >
+              <p>
+                Всю сознательную жизнь мой уровень английского колебался вокруг отметки Intermediate, а представления о Нью-Йорке ограничивались нарезкой сцен из фильма «Манхэттен» Вуди Аллена и сериала «Секс в большом городе». Но однажды я за компанию с друзьями приняла участие в лотерее Green Card. 31 октября 2018 года я буду отмечать двухлетие своего переезда в Нью-Йорк. Всю сознательную жизнь мой уровень английского колебался вокруг отметки Intermediate, а представления о Нью-Йорке ограничивались нарезкой сцен из фильма «Манхэттен» Вуди Аллена и сериала «Секс в большом городе». Но однажды я за компанию с друзьями приняла участие в лотерее Green Card. 31 октября 2018 года я буду отмечать двухлетие своего переезда в Нью-Йорк. Всю сознательную жизнь мой уровень английского колебался вокруг отметки Intermediate, а представления о Нью-Йорке ограничивались нарезкой сцен из фильма «Манхэттен» Вуди Аллена и сериала «Секс в большом городе». Но однажды я за компанию с друзьями приняла участие в лотерее Green Card. 31 октября 2018 года я буду отмечать двухлетие своего переезда в Нью-Йорк. Всю сознательную жизнь мой уровень английского колебался вокруг отметки Intermediate, а представления о Нью-Йорке ограничивались нарезкой сцен из фильма «Манхэттен» Вуди Аллена и сериала «Секс в большом городе». Но однажды я за компанию с друзьями приняла участие в лотерее Green Card. 31 октября 2018 года я буду отмечать двухлетие своего переезда в Нью-Йорк. Всю сознательную жизнь мой уровень английского колебался вокруг отметки Intermediate, а представления о Нью-Йорке ограничивались нарезкой сцен из фильма «Манхэттен» Вуди Аллена и сериала «Секс в большом городе». Но однажды я за компанию с друзьями приняла участие в лотерее Green Card. 31 октября 2018 года я буду отмечать двухлетие своего переезда в Нью-Йорк. Всю сознательную жизнь мой уровень английского колебался вокруг отметки Intermediate, а представления о Нью-Йорке ограничивались нарезкой сцен из фильма «Манхэттен» Вуди Аллена и сериала «Секс в большом городе». Но однажды я за компанию с друзьями приняла участие в лотерее Green Card. 31 октября 2018 года я буду отмечать двухлетие своего переезда в Нью-Йорк.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <header
+        class="css-1hvipe"
+      >
+        <div
+          class="css-dzbrss"
+        >
+          <a
+            href="/"
+          >
+            <h1>
+              Blog
+            </h1>
+          </a>
+        </div>
+      </header>
+      <div
+        class="css-dzbrss"
+      >
+        <div
+          class="css-1t2stdg"
+        >
+          <h2>
+            Жизнь в Минске
+          </h2>
+          <div
+            class="css-29ta8s"
+          >
+            <img
+              alt="avatar"
+              class="css-1cb8wce"
+              src="https://images.ctfassets.net/qaewhz92nurf/7ITV96IbYOyroFdtTQNxlK/ba144cf418eaf777c6b48ae7de750443/Mikita.Azizau.png?w=1550&h=1465&fl=progressive&q=50&fm=jpg"
+            />
+            <p
+              class="authorName"
+            >
+              Nikita Azizov
+            </p>
+            <p>
+              2021-12-23
+            </p>
+          </div>
+          <div
+            class="css-11ama30"
+          >
+            <p>
+              Всю сознательную жизнь мой уровень английского колебался вокруг отметки Intermediate, а представления о Нью-Йорке ограничивались нарезкой сцен из фильма «Манхэттен» Вуди Аллена и сериала «Секс в большом городе». Но однажды я за компанию с друзьями приняла участие в лотерее Green Card. 31 октября 2018 года я буду отмечать двухлетие своего переезда в Нью-Йорк. Всю сознательную жизнь мой уровень английского колебался вокруг отметки Intermediate, а представления о Нью-Йорке ограничивались нарезкой сцен из фильма «Манхэттен» Вуди Аллена и сериала «Секс в большом городе». Но однажды я за компанию с друзьями приняла участие в лотерее Green Card. 31 октября 2018 года я буду отмечать двухлетие своего переезда в Нью-Йорк. Всю сознательную жизнь мой уровень английского колебался вокруг отметки Intermediate, а представления о Нью-Йорке ограничивались нарезкой сцен из фильма «Манхэттен» Вуди Аллена и сериала «Секс в большом городе». Но однажды я за компанию с друзьями приняла участие в лотерее Green Card. 31 октября 2018 года я буду отмечать двухлетие своего переезда в Нью-Йорк. Всю сознательную жизнь мой уровень английского колебался вокруг отметки Intermediate, а представления о Нью-Йорке ограничивались нарезкой сцен из фильма «Манхэттен» Вуди Аллена и сериала «Секс в большом городе». Но однажды я за компанию с друзьями приняла участие в лотерее Green Card. 31 октября 2018 года я буду отмечать двухлетие своего переезда в Нью-Йорк. Всю сознательную жизнь мой уровень английского колебался вокруг отметки Intermediate, а представления о Нью-Йорке ограничивались нарезкой сцен из фильма «Манхэттен» Вуди Аллена и сериала «Секс в большом городе». Но однажды я за компанию с друзьями приняла участие в лотерее Green Card. 31 октября 2018 года я буду отмечать двухлетие своего переезда в Нью-Йорк. Всю сознательную жизнь мой уровень английского колебался вокруг отметки Intermediate, а представления о Нью-Йорке ограничивались нарезкой сцен из фильма «Манхэттен» Вуди Аллена и сериала «Секс в большом городе». Но однажды я за компанию с друзьями приняла участие в лотерее Green Card. 31 октября 2018 года я буду отмечать двухлетие своего переезда в Нью-Йорк.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
