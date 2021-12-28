@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import Header from '../components/Header'
 import {AvatarStyle, ContainerStyle, PostInformationStyle, PostStyle, PostContentStyle} from "../styles/styles"
 import { Component } from "react";
+import Comments from "../components/Comments";
 
 class BlogPost extends Component{
 
@@ -36,6 +37,7 @@ class BlogPost extends Component{
                         </PostContentStyle>
                     </PostStyle>
                 </ContainerStyle>
+                <Comments/>
             </div>
         );
     }
